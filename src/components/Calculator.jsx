@@ -102,7 +102,7 @@ const Calculator = () => {
             {operation}
           </button>
         ))}
-        <button onClick={handleCalculate}>=</button>
+        <button className="result" onClick={handleCalculate}>=</button>
       </div>
     </div>
   );
